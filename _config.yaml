@@ -1,6 +1,28 @@
-title: Nidever Research Group
-logo: /assets/logo.jpg
-description: Nidever Research Group
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-minimal
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+  #relative_permalinks: true
+
+# Setup
+title:            Nidever Research Group
+tagline:          'Nidever Research Group'
+description:      'Nidever Research Group'
+# url:              http://hyde.getpoole.com
+# baseurl:          /
+
+author:
+  name:           'David Nidever'
+  url:            https://dnidever.github.io/
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/NideverAstroResearch/
+
+plugins: [jekyll-paginate, jekyll-gist]
